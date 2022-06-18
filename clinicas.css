@@ -7,7 +7,6 @@
     box-sizing: border-box;
 }
 
-
 /* BOTÃO DE BUSCA */
 
 form.example input[type=text] {
@@ -65,16 +64,12 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-   
-
 }
 
 header nav ul {
     display: flex;
     list-style: none;
-    
-    
-  
+
 }
 
 header nav a {
@@ -87,13 +82,11 @@ header nav a {
 
 header ul li {
     margin: 0 10px;
-    
 }
 
 section#servicos {
     background: #35BDDD;
     padding: 5px 61px 61px 61px;
-    
 }
 
 section#servicos h2 {
@@ -105,9 +98,6 @@ section#servicos h2 {
     width: 780px;
     height: 420px;
     overflow: hidden;
-  
-    
-    
 }
 .container .card {
    width: 500%;
@@ -116,7 +106,7 @@ section#servicos h2 {
    animation-iteration-count: infinite;
 }
 section#servicos .card {
-    
+  
     /*overflow: hidden;*/
     position: relative;
     object-fit: cover;
@@ -127,7 +117,6 @@ section#servicos .card {
 }
 .card img {
     width: 19.9%;
-    
     object-fit: cover;
 }
 
@@ -138,7 +127,6 @@ section#texto p{
     padding-right: 150px;
     font-size: 22px;
     font-weight: 1000;
-
 }
     
 section#texto ul{
@@ -146,13 +134,10 @@ section#texto ul{
     text-decoration: none;
     font-weight: 500;
     font-size: 18px;
-    
-    
 }
 
 section#texto ul li{
     list-style: circle;
-
 }
 
 section#detailed {
@@ -161,9 +146,7 @@ section#detailed {
     gap: 20px;
     object-fit:cover;
     margin: 60px 0;
-    
 }
-
 
 section#detailed h3 {
     text-align: center;
@@ -187,23 +170,6 @@ section#detailed .agendar {
     margin-bottom: 50px;
     padding: 20px 10px;
     border-radius: 10px;
-    
-  }
-
-
-
-section#detailed button {
-    width: 350px;
-    height: 100px;
-    background: #d7891c;
-    object-fit:cover;
-    color: #ffffff;
-    font-weight: 600;
-    font-size: 39px;
-    margin-left: auto;
-    margin-right: auto;
-    border: none;
-    margin-bottom: 50px;
 }
 
 section#detailed > div {
