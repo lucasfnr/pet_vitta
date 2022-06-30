@@ -78,7 +78,7 @@ header nav ul {
 header nav a {
     text-decoration: none;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
     color: #000000;
     margin-left: 10px
 }
@@ -117,6 +117,12 @@ background: #FFFFFF;
 border: 1px solid #9B9B9B;
 margin-top: 10px;
 }
+.enviar {
+    padding-left: 175px;
+}
+.formulario p input {
+    width: 100px;
+}
 .formulario select {
 width: 538px;
 height: 26px;
@@ -152,10 +158,20 @@ h3 {
     margin-top: 20px;
 }
 footer {
-    background-color: #E49c29;
+    background-color:#E9B44C;
     display: flex;
     justify-content: space-evenly;
     padding: 15px;
+}
+
+.logo img{
+    max-width:50px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-left: 40%;
+
 }
 
 footer img {
@@ -164,28 +180,44 @@ footer img {
 
 footer p {
     max-width: 255px;
-    color: #ffffff;
+    color: #000000;
     margin: 0;
-    font-size: 14px;
+    font-size: 13px;
     text-align: center;
 }
 
 footer ul {
     list-style: none;
-    color: #fff;
-    font-size: 18px;
-}
-
-footer ul li.title {
-    font-weight: bold;
-    font-size: 22px;
+    color: rgb(102, 89, 89);
+    font-size: 14px;
+    text-align: right;
     
 }
 
+footer ul li.title {
+    
+    color: #ffffff;
+    font-size: 20px;
+    
+    
+}
+
+.social img{
+    max-width:35px;
+    max-height:35px;;
+    width: auto;
+    height: auto;
+    margin-top: 30%;
+    margin-right: 6px;
+}
+
+
 footer a {
     font-style: normal;
-    color: #fff;
+    color: rgb(59, 59, 59);
     text-decoration: none;
+    font-weight: 550;
+    
 }
 
 .margin-list li:hover {
