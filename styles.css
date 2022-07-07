@@ -7,7 +7,6 @@
     box-sizing: border-box;
 }
 
-
 /* BOTÃO DE BUSCA */
 
 form.example input[type=text] {
@@ -18,10 +17,10 @@ form.example input[type=text] {
     float: left;
     width: 80%;
     background: #ffffff;
-  }
+}
   
   /* Style the submit button */
-  form.example button {
+form.example button {
     float: left;
     width: 20%;
     padding: 10px;
@@ -32,24 +31,23 @@ form.example input[type=text] {
     border: 1px solid grey;
     border-left: none; /* Prevent double borders */
     cursor: pointer;
-  }
+}
   
-  form.example button:hover {
+form.example button:hover {
     background: #E59E44;
-  }
+}
   
   /* Clear floats */
-  form.example::after {
+form.example::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
 /* FIM DO BOTÃO DE BUSCA */
 
 body {
     font-family: "Open Sans", sans-serif;
 }
- 
 
 h1 {
     font-weight: 800;
@@ -61,30 +59,26 @@ h2 {
     font-size: 44px;
     color: #ffffff;
 }
-
+.card img {
+    height: 500px;
+}
 header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 30px;
-
 }
 
 .logoheader img{
-    max-width:50px;
-    max-height:50px;
+    max-width:300px;
+    max-height:300px;
     width: auto;
     height: auto;
-    margin-left: 50%;
-
 }
 
 header nav ul {
     display: flex;
     list-style: none;
-    
-    
-  
 }
 
 header nav a {
@@ -97,92 +91,7 @@ header nav a {
 
 header ul li {
     margin: 0 10px;
-    
 }
-
-section#servicos {
-    background: #35BDDD;
-    padding: 61px;
-    
-}
-
-section#servicos h2 {
-    text-align: center;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 18px;
-    
-}
-
-section#servicos .card {
-    background-color: #ffffff;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    overflow: hidden;
-    position: relative;
-    object-fit: cover;
-}
-
-section#servicos .card img{
-    width: 150px;
-    height: 150px;
-    object-fit:cover;
-
-}
-
-section#servicos .card p {
-    font-weight: 600;
-    font-size: 16px;
-    margin: 0;
-    
-}
-
-section#servicos .card span {
-    font-size: 16px;
-}
-
-section#servicos .card .content {
-    padding: 11px 11px 25px 11px;
-}
-
-section#texto p{
-    text-align: center;
-    margin: 40px 0;
-    padding-left: 150px;
-    padding-right: 150px;
-    font-size: 16px;
-    font-weight: 1000;
-
-}
-    
-section#texto ul{
-    text-align: center;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 16px;
-    
-    
-}
-
-section#texto ul li{
-    list-style: circle;
-
-}
-
-section#detailed {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    object-fit:cover;
-    margin: 60px 0;
-    
-}
-
 
 section#detailed h3 {
     text-align: center;
@@ -206,10 +115,7 @@ section#detailed .agendar {
     margin-bottom: 50px;
     padding: 20px 10px;
     border-radius: 10px;
-    
-  }
-
-
+}
 
 section#detailed button {
     width: 350px;
@@ -244,7 +150,6 @@ footer {
     height: auto;
     margin: auto;
     margin-left: 40%;
-
 }
 
 footer img {
@@ -264,15 +169,11 @@ footer ul {
     color: rgb(102, 89, 89);
     font-size: 14px;
     text-align: right;
-    
 }
 
 footer ul li.title {
-    
     color: #ffffff;
     font-size: 20px;
-    
-    
 }
 
 .social img{
@@ -284,15 +185,11 @@ footer ul li.title {
     margin-right: 6px;
 }
 
-
 footer a {
     font-style: normal;
     color: rgb(59, 59, 59);
     text-decoration: none;
     font-weight: 550;
-    
 }
 
-.margin-list li:hover {
-    color: #c2185b;
-}
+

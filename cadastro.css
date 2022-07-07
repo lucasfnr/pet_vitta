@@ -1,57 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
-
-* {
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    box-sizing: border-box;
-}
-
-/* BOTÃO DE BUSCA */
-
-form.example input[type=text] {
-    padding: 10px;
-    font-size: 18px;
-    border: 1px solid grey;
-    border-radius: 100px;
-    float: left;
-    width: 80%;
-    background: #ffffff;
-  }
-  
-  /* Style the submit button */
-  form.example button {
-    float: left;
-    width: 20%;
-    padding: 10px;
-    background: #474747;
-    border-radius: 100px;
-    color: white;
-    font-size: 16px;
-    border: 1px solid grey;
-    border-left: none; /* Prevent double borders */
-    cursor: pointer;
-  }
-  
-  form.example button:hover {
-    background: #E59E44;
-  }
-  
-  /* Clear floats */
-  form.example::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-/* FIM DO BOTÃO DE BUSCA */
-
 body {
     font-family: "Open Sans", sans-serif;
     color: white;    
 }
 main {
     margin: 20px;
-    
+   
 }
 
 h1 {
@@ -63,33 +16,11 @@ h1 {
     border: 3px solid black;
 }
 
-header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-header nav ul {
-    display: flex;
-    list-style: none;
-
-}
-
-header nav a {
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 18px;
-    color: #000000;
-    margin-left: 10px
-}
-
-header ul li {
-    margin: 0 10px;
-}
 #container {
     border: 3px solid black;
     background: #35bddd;
 }
+
 h2 {
     font-size:20px;
     padding-left: 35px;
@@ -97,97 +28,72 @@ h2 {
     margin-top: 15px;
     
 }
+
 .formulario {
     padding: 10px 35px;
-    
 }
+
 .formulario label {
     
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
 }
+
 .formulario input {
     width: 538px;
-height: 26px;
-background: #FFFFFF;
-border: 1px solid #9B9B9B;
-margin-top: 10px;
+    height: 26px;
+    background: #FFFFFF;
+    border: 1px solid #9B9B9B;
+    margin-top: 10px;
 }
-.formulario select {
-width: 538px;
-height: 26px;
-background: #FFFFFF;
-border: 1px solid;
-margin-top: 10px;
 
+.enviar {
+    padding-left: 175px;
 }
+
+.formulario p input {
+    width: 100px;
+}
+
+.formulario select {
+    width: 538px;
+    height: 26px;
+    background: #FFFFFF;
+    border: 1px solid;
+    margin-top: 10px;
+}
+
 .sessao-formulario {
     width: 1050px;
     display: flex;
 }
+
 form div {
     margin-top: 15px;
 } 
+
 #senha {
     margin-left: 22px;
     width: 200px;
-    
 }
+
 #confirme-senha {
     margin-left: 5px;
     width: 200px;
 }
+
 h3 {
     font-size: 22px;
     margin-top: 30px;
     margin-left: 35px;
 }
+
 #container p {
     margin: 20px 0px 20px 35px;
     margin-left: 35px;
     margin-top: 20px;
 }
-footer {
-    background-color: #E49c29;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 15px;
-}
 
-footer img {
-    margin-bottom: -15px;
-}
-
-footer p {
-    max-width: 255px;
-    color: #ffffff;
-    margin: 0;
-    font-size: 14px;
-    text-align: center;
-}
-
-footer ul {
-    list-style: none;
-    color: #fff;
-    font-size: 18px;
-}
-
-footer ul li.title {
-    font-weight: bold;
-    font-size: 22px;
-    
-}
-
-footer a {
-    font-style: normal;
-    color: #fff;
-    text-decoration: none;
-}
-
-.margin-list li:hover {
-    color: #c2185b;
-}

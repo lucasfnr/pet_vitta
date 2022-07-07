@@ -13,7 +13,6 @@ h2 {
     font-weight: 800;
     font-size: 44px;
     color: #ffffff;
-   
 }
 
 main section:nth-child(1) {
@@ -22,19 +21,16 @@ main section:nth-child(1) {
     padding-top: 50px;
     padding-bottom: 70px;
     background-color: hsl(0, 0%, 97%);
-
 }
 
 main form {
     min-width: min(50%, 538px);
     margin-right: 100px;
-    
 }
 
 .input-group {
     display: flex;
     flex-direction: column;
-    
 }
 
 .input-group + .input-group {
@@ -57,12 +53,10 @@ main form {
     min-height: 26px;
     border: 1px solid #909090;
     vertical-align: bottom;
-    
 }
 
 .input-group div input:nth-child(n + 2) {
     margin-left: 20px;
-    
 }
 
 .file-group {
@@ -74,11 +68,9 @@ main form button {
     width: 100%;
     height: 34px;
     background: rgb(61, 157, 179);
-
     color: #fff;
     font-weight: 500;
     font-size: 20px;
-
     border: none;
     margin-top: 20px;
     cursor: pointer;
@@ -93,16 +85,13 @@ main form button:hover {
 
 .file-group input {
     display: none;
-    
 }
 
 .file-group label {
     width: 118px;
     height: 21px;
-
     background: #c4c4c4;
     margin-left: 5px;
-
     text-align: center;
     color: #fff;
     font-size: 14px;
@@ -116,7 +105,4 @@ font-stretch: narrower;
 font-weight: 800;
 margin-top: 15%;
 text-align: center;
-
 }
-
-
